@@ -1,0 +1,52 @@
+#NEXUS
+
+[from page 85 of Lieberman, 1994]
+BEGIN DATA;
+DIMENSIONS NTax = 16 NChar = 25;
+FORMAT datatype = standard missing=? symbols="0123" ;
+
+MATRIX
+
+B_clara
+222110 01100 10001 10001 1111
+B_eriensis
+2?0112 1?001 11001 10001 1111
+B_rowi
+222011 11001 00011 10001 0111
+B_hesionea
+211??? ?0??? ??0?? ???0? ????
+B_timwhitei
+?11111 1???1 ?01?? 10?11 0111
+B_arkonensis
+211011 11001 00011 10111 0111
+B_lucasensis
+230110 11001 11111 10120 0111
+B_cartwrightae
+???110 1???0 ?11?1 10??0 0111
+B_canaliculata
+232012 10??1 ?10?1 10?20 0111
+B_nodosa
+122011 11000 ??111 10121 0111
+B_pulchra
+122012 11011 11111 10121 0111
+B_reimanni
+122010 11011 ?0111 11111 0111
+B_witherspooni
+122011 11011 ?10?? 00211 1111
+B_elevata
+122011 11010 ??001 00?11 0111
+
+Ormistoniella_malaca
+000000 10000 00000 00000 00?0
+Basidechenella_maura
+???000 1???0 ?01?0 00??1 1100
+
+;
+end;
+
+
+begin trees; 
+tree one = [&U] ((((1,2), (3, ((4, (5,6)), (((7,8), 9), (10, (11, (12, (13, 14)))))))),16),15) ; 
+end;
+
+pscore;

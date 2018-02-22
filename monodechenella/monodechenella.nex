@@ -1,0 +1,42 @@
+#NEXUS
+[from page 133 of Lieberman, 1994]
+BEGIN DATA;
+DIMENSIONS NTax = 10 NChar = 20;
+FORMAT datatype = standard missing=? symbols="012345" ;
+
+MATRIX
+
+Monodechenella_halli
+011110 10111 01111 0231
+Monodechenella_boteroi
+???11? ?01?1 ?1?1? ?412
+M_breviceps
+0?1000 10101 11111 1521
+M_curvimarginata
+011110 11111 11111 1321
+M_legrandsmithi
+011111 11110 11111 1521
+M_macrocephala
+111111 11110 11111 0541
+M_zlichovianus
+???10? ?11?1 ?1?1? ?410
+Milesdavis_eldredgei
+???10? ?01?1 ?1?0? ?000
+Hedstroemia_pachydermata
+000000 00100 00011 0110
+Thebanaspis_thebana
+000000 00000 00000 0000
+
+
+
+;
+end;
+
+
+begin trees; 
+tree one = (((((1, 2, (3, (4, (5, 6)))),7),8),9),10);
+
+
+end;
+
+pscore;
