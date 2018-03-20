@@ -3,7 +3,7 @@ Lieberman, 1994 http://digitallibrary.amnh.org/handle/2246/831
 
 Crassiproetus matrix is on p. 63
 
-data C. brevispinosus ?
+data C. brevispinosus ? dup from crassimarginatus
 
 Basidechenella matrix is on p. 85,
 
