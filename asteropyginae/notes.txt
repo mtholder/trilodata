@@ -1,0 +1,6 @@
+Data: page 12
+Tree: page 14
+
+Prediction: dramatic speciation rate slow down at around 388 million years ago (using the German Devonian time scale) or 388.5 mya (using the British one).
+
+See pdfs/LiebermanKloc1997.pdf in the Dropbox version of this repo
